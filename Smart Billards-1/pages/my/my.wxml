@@ -1,0 +1,50 @@
+<!--pages/my/my.wxml-->
+
+<view class="container">
+  <image src="/images/icon/icon-login.png"></image>
+  <navigator url="/pages/login/login" class="txt1" style="width: 191rpx; height: 50rpx; display: block; box-sizing: border-box">登录/注册</navigator>
+  <view class="txt2"  style="width: 278rpx; height: 50rpx; display: block; box-sizing: border-box">支持微信快速登录</view>
+</view>
+<view class="icon_area" >
+  <view class="icon">
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i1.png"></image>
+      <view class="txt">寻找对手</view>
+    </navigator>
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i2.png"></image>
+      <view class="txt">战况分析</view>
+    </navigator>
+    <navigator url="/pages/rulecheck/rulecheck" open-type="switchTab" style= "width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i3.png"></image>
+      <view class="txt">规则查询</view>
+    </navigator>
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i4.png"></image>
+      <view class="txt">比赛记录</view>
+    </navigator>
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i5.png"></image>
+      <view class="txt">我的好友</view>
+    </navigator>
+  </view>
+</view>
+
+<navigator class="bar">
+  <view class="txt1">好友列表</view><view class="txt2">></view>
+</navigator> 
+<navigator class="bar">
+  <view class="txt1">消息订阅</view><view class="txt2">></view>
+</navigator> 
+<navigator class="bar">
+  <view class="txt1">帮助中心</view><view class="txt2">></view>
+</navigator> 
+<navigator class="bar">
+  <view class="txt1">通用设置</view><view class="txt2">></view>
+</navigator> 
+<navigator class="bar">
+  <view class="txt1">意见反馈</view><view class="txt2">></view>
+</navigator> 
+
+
+

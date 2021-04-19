@@ -1,0 +1,37 @@
+/* pages/my/my.wxss */
+.container{
+  background-color: #f0f0ff;width :700rpx; height: 400rpx;
+  margin-left:25rpx;margin-top:20rpx;border-radius: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.container image{
+  width: 150rpx;height: 150rpx;
+  margin-left: 20rpx;margin-top: 20rpx;
+}
+.container .txt1{
+  font-size:40rpx; height: 80rpx;
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-top: 30rpx; margin-left: 40rpx;
+}
+.container .txt2{font-size: 30rpx; color:#9e9d9d; height:50rpx;margin-left:20rpx;}
+.flex-view{
+  display:flex;
+  height:500rpx;
+  width:750rpx;
+
+}
+.view-item{background-color: skyblue;}
+
+.icon{display: flex; padding: 20rpx 0;height: 150rpx;background: #ffffff} 
+.icon_area navigator{text-align: center; padding: 0 20rpx;}
+.icon_area image{width:80rpx; height:80rpx;}
+.icon_area .txt{font-size: 26rpx;}
+.icon navigator{height:50rpx;}
+
+.bar{
+  width: 750rpx; height: 100rpx; display: flex; justify-content: space-between; background-color: #f9f9fc; 
+}
+.bar .txt1{height: 100rpx; font-size:30rpx; padding-top: 25rpx;padding-left:30rpx;box-sizing: border-box; }
+.bar .txt2{padding-top: 30rpx; padding-right: 45rpx;font-size:25rpx; color: #cccaca;}

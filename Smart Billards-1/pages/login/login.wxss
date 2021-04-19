@@ -1,0 +1,10 @@
+/* pages/login/login.wxss */
+.container{
+  width: 750rpx;
+  height: 400rpx;
+  margin-top: 300rpx;
+}
+.container .txt{
+  text-align: center;
+  box-sizing: border-box;
+}

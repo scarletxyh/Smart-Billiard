@@ -1,0 +1,35 @@
+/* pages/home/home.wxss */
+
+.header{ width: 750rpx; height: 100rpx; }
+.header_container{display: flex; justify-content: space-between;padding:10rpx;}
+.header_container navigator{height: 80rpx;}
+
+.header_container image{height: 100%;}
+
+.swiper_area{width:100%; height: 380rpx;background-color:#b8dde9}
+.swiper_area swiper{height: 100%;width:100%;}
+.swiper_area image{width:100%; height: 380rpx;}
+
+.background{background-image: url('https://2000022711.zhangqx.com/.well-known/pki-validation/background2.jpg');
+height: 1000rpx;width:750rpx;
+}
+.icon{display: flex; padding: 20rpx 0;height: 150rpx;padding-top: 60rpx;} 
+.icon_area navigator{text-align: center; padding: 0 20rpx;}
+.icon_area image{width:80rpx; height:80rpx;}
+.icon_area .txt{font-size: 26rpx;}
+.icon navigator{height:50rpx;}
+
+.public_title{display:flex;justify-content: space-between; height:100rpx;align-items: center;}
+.public_title .txt{font-size:35rpx; position: relative;padding:25rpx;}
+.public_title .txt::before{display: block; width:8rpx; height:34rpx;
+background:red; content:""; position: absolute; left:0; top:50%;
+margin-top: -18rpx;margin-left:10rpx;}
+.public_title navigator{font-size:30rpx; color: #666;}
+
+/*教学视频模块*/
+.lesson{padding-left: 5%; padding-right: 5%;}
+.background .lesson_main{display:flex;flex-wrap: wrap; justify-content: space-between;}
+.background .lesson_main navigator{width:300rpx; height:200rpx; margin-bottom: 40rpx;position: relative;}
+.background .lesson_main .pic{width:100%;height:100%;}
+.background .lesson_main .level{width:100%;height:100%;background:rgba(0,0,0,0.3);position: absolute;
+  top:0;left:0;color:#fff; display:flex;justify-content: center; align-items: center;}

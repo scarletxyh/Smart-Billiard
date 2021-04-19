@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/rulecheck/rulecheck",
+    "pages/my/my",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "Smart Billards",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/tab-icon1.png",
+        "selectedIconPath": "/images/tab-icon1.png"
+      },
+      {
+        "pagePath": "pages/rulecheck/rulecheck",
+        "text": "规则",
+        "iconPath": "/images/tab-icon2.png",
+        "selectedIconPath": "/images/tab-icon2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tab-icon3.png",
+        "selectedIconPath": "/images/tab-icon3.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
