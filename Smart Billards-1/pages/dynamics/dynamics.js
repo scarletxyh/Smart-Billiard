@@ -1,36 +1,18 @@
-// pages/login/login.js
+// pages/dynamics/dynamics.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    code: 0
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        //console.log(res.code)
-        wx.request({
-          url: '1.15.174.88/getcode', 
-          method:'POST',
-          data: {
-            'code': res.code
-          },
-          header: {
-            'content-type': 'application/json' // 默认值
-          },
-          success (res) {
-            console.log(res.data)
-          }
-        })
-      }
-    })
+
   },
 
   /**

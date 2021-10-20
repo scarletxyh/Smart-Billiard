@@ -1,0 +1,24 @@
+<!--pages/dynamics/dynamics.wxml-->
+<view class="list">
+  <view class="txt">资讯</view>
+  <view class="txt">快报</view>
+  <view class="txt">台球</view>
+  <view class="txt">新闻</view>
+  <view class="txt">图片</view>
+  <view class="txt">战况</view>
+  <view class="txt">其他</view>
+</view>
+
+<view class="interval"></view>
+<view wx:for="{{7}}">
+  <view  class="news">
+    <view  class="title">
+      <view class="info">丁俊晖不敌奥沙利文仅获亚军，新科冠军诞生</view>
+      <view class="date">2021-3-30</view>
+    </view>
+    <image class="img" src="/images/scrollnews1.jpeg"></image> 
+  </view>
+  <view class="interval"></view>
+</view>
+<view class="bottom">您已浏览至底部</view>
+

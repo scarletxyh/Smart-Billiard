@@ -26,7 +26,7 @@
 
 .icon{display: flex; padding: 20rpx 0;height: 150rpx;background: #ffffff} 
 .icon_area navigator{text-align: center; padding: 0 20rpx;}
-.icon_area image{width:80rpx; height:80rpx;}
+.icon_area image{width:100rpx; height:100rpx;}
 .icon_area .txt{font-size: 26rpx;}
 .icon navigator{height:50rpx;}
 

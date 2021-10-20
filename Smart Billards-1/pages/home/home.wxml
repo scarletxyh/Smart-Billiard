@@ -15,76 +15,56 @@
   <swiper autoplay="true" indicator-dots indicator-color="rgba(255,255,255,0.5)"
   indicator-active-color="#fff" circular="true" interval="3500">   
     <swiper-item>
-      <image src="/images/senk1.jpeg "></image>
+      <image src="/images/scrollnews1.jpeg "></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/senk2.jpeg "></image>
+      <image src="/images/scrollnews2.jpeg "></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/senk3.jpeg "></image>
+      <image src="/images/scrollnews3.jpeg "></image>
     </swiper-item>
   </swiper>
 </view>
-<view class="background">
-  <view class="icon_area" >
-    <view class="icon">
-      <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
-        <image src="/images/icon/i1.png"></image>
-        <view class="txt">寻找对手</view>
-      </navigator>
-      <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
-        <image src="/images/icon/i2.png"></image>
-        <view class="txt">战况分析</view>
-      </navigator>
-      <navigator url="/pages/rulecheck/rulecheck" open-type="switchTab" style= "width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
-        <image src="/images/icon/i3.png"></image>
-        <view class="txt">规则查询</view>
-      </navigator>
-      <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
-        <image src="/images/icon/i4.png"></image>
-        <view class="txt">比赛记录</view>
-      </navigator>
-      <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
-        <image src="/images/icon/i5.png"></image>
-        <view class="txt">我的好友</view>
-      </navigator>
-    </view>
-  </view>
-  <view class="lesson">
-    <view class="public_title">
-    
-      <navigator >>更多</navigator>
-    </view>
-  
 
-    <view class="lesson_main" >
-      <navigator>
-        <image class="pic" src="/images/kon.jpeg"></image>
-        <view class="level">
-          <view class="title">握杆教学</view>
-        </view>
-      </navigator>
-      <navigator>
-        <image class="pic" src="/images/kon.jpeg"></image>
-        <view class="level">
-          <view class="title">杆法介绍</view>
-        </view>
-      </navigator>
-      <navigator>
-        <image class="pic" src="/images/kon.jpeg"></image>
-        <view class="level">
-          <view class="title">走位技术</view>
-        </view>
-      </navigator>
-      <navigator>
-        <image class="pic" src="/images/kon.jpeg"></image>
-        <view class="level">
-          <view class="title">跳球技术</view>
-        </view>
-      </navigator>
-    </view>
+<view class="icon_area" >
+  <view class="icon">
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i1.png"></image>
+      <view class="txt">寻找对手</view>
+    </navigator>
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i2.png"></image>
+      <view class="txt">战况分析</view>
+    </navigator>
+    <navigator url="/pages/rulecheck/rulecheck" open-type="switchTab" style= "width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i3.png"></image>
+      <view class="txt">规则查询</view>
+    </navigator>
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i4.png"></image>
+      <view class="txt">比赛记录</view>
+    </navigator>
+    <navigator url="" style="width: 144rpx; height: 154rpx; display: block; box-sizing: border-box">
+      <image src="/images/icon/i5.png"></image>
+      <view class="txt">我的好友</view>
+    </navigator>
   </view>
-
 </view>
 
+<view class="lesson">
+  <view class="public_title">
+    <view class="txt">教学</view>
+    <navigator >>更多</navigator>
+  </view>
+  <view class="videos"></view>
+
+  <view class="lesson_main" >
+    <navigator wx:for="{{4}}">
+      <image class="pic" src="/images/scrollnews1.jpeg"></image>
+      <view class="level">
+        <view class="title">实战指导</view>
+      </view>
+    </navigator>
+  </view>
+</view>
 

@@ -2,14 +2,15 @@
   "pages": [
     "pages/home/home",
     "pages/rulecheck/rulecheck",
+    "pages/dynamics/dynamics",
     "pages/my/my",
     "pages/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarBackgroundColor": "#000000",
     "navigationBarTitleText": "Smart Billards",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [

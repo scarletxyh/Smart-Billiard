@@ -1,5 +1,4 @@
 <!--pages/my/my.wxml-->
-
 <view class="container">
   <image src="/images/icon/icon-login.png"></image>
   <navigator url="/pages/login/login" class="txt1" style="width: 191rpx; height: 50rpx; display: block; box-sizing: border-box">登录/注册</navigator>
